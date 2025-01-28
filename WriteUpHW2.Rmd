@@ -1,0 +1,69 @@
+---
+title: "hw2writeup"
+output: html_document
+date: "2025-01-28"
+---
+
+```{r include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+# Write-Up HW2
+
+Name: Minh K Nguyen UT EID: mkn747 [GitHub Repo](https://github.com/PotionPurchaser/HW2-SDS315.git)
+
+## Problem 1: Beauty, or not, in the Classroom
+
+### Part A:
+
+![](problem1graph1.png) This histogram illustrates how course evaluation scores (eval) are distributed on a scale from 1 to 5. The x-axis represents the scores, while the y-axis shows the number of courses that received each score. The majority of the scores cluster between 4 and 5, which suggests that most professors receive favorable evaluations from their students. This high concentration at the upper end highlights generally positive student satisfaction across the board.
+
+### Part B:
+
+![](problem1graph2.png)The boxplot compares evaluation scores (eval) for professors who are native and non-native English speakers. The x-axis categorizes professors as Native or Non-Native, while the y-axis represents their scores. Native English speakers have slightly higher median evaluation scores compared to their non-native counterparts, but the overlap in distributions suggests that language background has only a minimal effect on how professors are evaluated by their students.
+
+### Part C:
+
+![](problem1graph3.png)These histograms break down evaluation scores by professor gender. Each panel corresponds to either Male or Female professors, with the x-axis showing evaluation scores and the y-axis showing frequency. The distributions for both genders are remarkably similar, with scores peaking between 4 and 5. This analysis suggests that gender does not play a significant role in how professors are evaluated.
+
+### Part D:
+
+![](problem1graph4.png)This scatterplot examines the relationship between professors’ physical attractiveness (beauty) and their evaluation scores (eval). The x-axis represents the attractiveness ratings, and the y-axis shows evaluation scores. Each point represents a professor, with the trendline indicating a slight positive correlation. This suggests that more attractive professors tend to receive marginally higher evaluation scores, though the effect size appears small.
+
+## Problem 2: Bike Sharing
+
+### Part A:
+
+![](problem2graph1.png)This line graph shows how bike rentals (total) vary throughout the day. The x-axis represents the hour of the day (from 0 to 23), and the y-axis displays the average number of rentals during that hour. Clear peaks are observed at 8 AM and 5 PM, corresponding to typical commuting hours. This pattern highlights how bike-sharing systems are heavily utilized for daily commuting.
+
+### Part B:
+
+![](problem2graph2.png)This faceted graph compares bike rental patterns on working days and non-working days. The x-axis represents the hour of the day, and the y-axis shows the average rentals. On working days, there are sharp increases in rentals during morning (8 AM) and evening (5 PM) commute times. In contrast, non-working days exhibit a flatter trend, with rentals distributed more evenly throughout the day. This indicates a clear alignment of bike-sharing usage with commuting needs on workdays.
+
+### Part C:
+
+![](problem2graph3.png)This bar plot demonstrates the impact of weather conditions on bike rentals at 9 AM. The x-axis categorizes weather conditions (weathersit) as Clear, Misty, Light Rain/Snow, or Heavy Rain/Snow, and the y-axis represents the average rentals. Rentals are highest during clear weather and drop significantly as conditions worsen, especially during heavy rain or snow. This emphasizes the role weather plays in influencing bike-sharing activity, particularly in the morning.
+
+## Problem 3: Capital Metro UT Ridership
+
+### Part 1:
+
+![](problem3graph1.png)This faceted line graph shows the average number of boardings (boarding) by hour of the day, broken down by day of the week. The x-axis represents the hour (6 AM to 10 PM), and the y-axis shows the average boardings. Each panel corresponds to a specific day of the week. Key patterns include peaks during commute hours (8 AM and 5 PM) on weekdays. On weekends, the patterns are more spread out, with higher boardings during midday hours. The noticeable dips on Mondays in September and midweek in November likely reflect specific events such as semester start dates and holidays. The takeaway is that ridership closely follows predictable workweek and event-related trends.
+
+### Part 2:
+
+![](problem3graph2.png) This scatterplot examines how temperature (in °F, x-axis) impacts the number of bus boardings (boarding, y-axis), with each panel representing a different hour of the day. The points are color-coded to differentiate between weekdays and weekends.Higher temperatures generally correlate with increased ridership, particularly during afternoon hours. Weekends show a similar trend but tend to have slightly fewer boardings at peak temperatures compared to weekdays. The main takeaway is that warmer weather encourages higher bus usage, regardless of the day type.
+
+## Problem 4: Billboard Top 100
+
+### Part A:
+
+![](problem4graph1.png)This table shows the top 10 songs with the highest number of weeks on the Billboard Top 100. The columns list the performer, song title, and total weeks on the chart. These songs stood out for their long-lasting popularity, showcasing their significant impact on the music scene.
+
+### Part B:
+
+![](problem4graph2.png)This line graph tracks the number of unique songs that appeared on the Billboard Top 100 each year, excluding 1958 and 2021 due to incomplete data. The x-axis represents the year, while the y-axis shows the count of unique songs. The graph reveals a steady rise in diversity over time, reflecting how music trends have expanded to include a broader range of styles and artists.
+
+### Part C:
+
+![](problem4graph3.png)This bar plot highlights the 19 artists who have had at least 30 songs spend 10 or more weeks on the Billboard Top 100. The x-axis lists the artists, and the y-axis shows the number of ten-week hits. Elton John leads the group, showcasing their dominance and consistent success in producing chart-topping music. This analysis underscores the significant contribution of these artists to the U.S. music industry.
